@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    web:
+        image: phpku:7.2-apache
+        build: .
+        ports:
+            - "80:80"
+        volumes:
+            - ./code:/var/www/html
