@@ -7,4 +7,4 @@ services:
         ports:
             - "80:80"
         volumes:
-            - ./code:/var/www/html
+            - ./htdocs:/var/www/html
